@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+
+/*Denne rammen ligger rundt ALT innhold*/
+#mainframe{
+	border: 2px solid blue;
+ 	min-height: 720px;		
+	min-width: 1300px;
+	
+	position: absolute; /*Dette er referansepunktet for alt som er inne i denne div'en*/
+	top: 0;
+	bottom: 0;
+	left: 1vw;
+	right: 1vw;
+	padding: 5px 5px 0 5px;
+}
+
+/*Denne rammen ligger rundt alt innhold, men innenfor #mainframe*/
+#allcontent{
+	
+}
+
+/*Her er innholdet i index.php. Altså mellom header og footer*/
+#maincontent{
+	border: 1px solid red;
+	margin: 5px 0;
+	height: 70vh;
+/* 	height: 700px; */
+	min-height: 500px;
+}
+
+header{
+	border: 1px solid;
+	min-height: 100px;
+}
+
+footer{
+	min-height: 100px;
+	border: 1px solid;
+	width: 99.3%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 5px;
+}
