@@ -4,9 +4,11 @@ include 'header.php';
 
 
 <div id="maincontent">
-Maincontent - index.php
 
 
+<button class="btn btn-hg btn-primary">
+  Boss Button
+</button>
 </div>
 
 

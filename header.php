@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="./css/main.css" rel="stylesheet" type="text/css">
-<link href="./flatui/dist/css/flat-ui.css" rel="stylesheet">
-<link href="./flatui/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="./flatui/dist/css/vendor/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./flatui/dist/css/flat-ui.css" rel="stylesheet" type="text/css">
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="./flatui/dist/js/flat-ui.js"></script>
@@ -19,53 +20,34 @@
 	<div id="mainframe">
 		<div id="allcontent">
 
+		
+		
 			<header>
 
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<nav class="navbar navbar-inverse" role="navigation">
-
-								<div class="collapse navbar-collapse navbar-collapse-01">
-									<ul class="nav navbar-nav navbar-left">
-									
-										<li class="dropdown"><a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown"> Ressurser <span class="caret"></span> </a>
-											<ul class="dropdown-menu">
-												<li><a href="#fakelink">Configure Clubs</a></li>
-												<li><a href="#fakelink">Configure Feature Plans</a></li>
-											</ul> <!-- /Sub menu -->
-										</li>
-										
-										<li class="dropdown"><a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown"> Meldinger <span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="#fakelink">View Promo List</a></li>
-												<li><a href="#fakelink">Add Edit Promo</a></li>
-												<li><a href="#fakelink">Promo Details</a></li>
-											</ul> <!-- /Sub menu -->
-										</li>
-										
-										<li class="dropdown"><a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown"> Servere <span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="#fakelink">Analytics</a></li>
-												<li><a href="#fakelink">Sales Report</a></li>
-											</ul> <!-- /Sub menu -->
-										</li>
-										
-										<li class="dropdown"><a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown"> System <span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="#fakelink">Analytics</a></li>
-												<li><a href="#fakelink">Sales Report</a></li>
-											</ul> <!-- /Sub menu -->
-										</li>
-										
-
-									</ul>
-								</div>
-							</nav>
-						</div>
-					</div>
-				</div>
-				<!-- /.container -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+    <a class="navbar-brand" href="#">Flat UI</a>
+  </div>
+  <div class="collapse navbar-collapse" id="navbar-collapse-01">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#fakelink">Products</a></li>
+      <li><a href="#fakelink">Features</a></li>
+    </ul>
+    <form class="navbar-form navbar-right" action="#" role="search">
+      <div class="form-group">
+        <div class="input-group">
+          <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
+          <span class="input-group-btn">
+            <button type="submit" class="btn"><span class="fui-search"></span></button>
+          </span>
+        </div>
+      </div>
+    </form>
+  </div><!-- /.navbar-collapse -->
+</nav><!-- /navbar -->
 
 
 			</header>
