@@ -41,5 +41,78 @@ footer{
 	position: absolute;
 	bottom: 0;
 	margin-bottom: 5px;
+	background-color: white !important;
 }
 
+#calendar {
+	width: 80px;
+}
+
+#logo {
+	height: 120px;
+	width: 133px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo p {
+	color: grey;
+	font-size: 35px;
+	margin-top: -17px;
+	margin-bottom: 0px;
+}
+
+.fui-home {
+	font-size: 50px;
+	width: 50px;
+	margin-left: 43px;
+}
+
+.fui-user {
+	font-size: 20px !important;
+	margin-right: 10px !important;
+	padding-right: 10px !important;
+	border-right: 1px solid white;
+}
+
+#innloggetKnappeGruppe {
+	float: right;
+	display: inline-block;
+	position: relative;
+	top: -120px;
+}
+
+#calendar {
+	display: inline-block;
+	float: left;
+}
+
+#footerBilde {
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#menyBar .btn-group button {
+	height: 100px;
+	width: 200px;
+}
+
+#menyBar {
+	width: 1200px;
+	height: 100px;
+	position: absolute;
+	left: 8vw;
+	margin-top: 80px;
+}
+
+#menyBar .btn-group {
+	margin-left: 25px;
+}
+
+#menyBar #meldingerKnapp{
+	margin-left: 25px;
+	height: 100px;
+	width: 200px;
+}
