@@ -27,7 +27,7 @@
 			<header>
 				<img src="img/calendar.png" id="calendar">
 				<div id="logo">
-					<span class="fui-home"></span>
+					<a href="index.php"><span class="fui-home"></span></a>
 					<p>EasyDev</p>
 				</div>
 				

@@ -7,12 +7,12 @@ include 'header.php';
 
 <div id="menyBar">
 	<div class="btn-group">
-		<button class="btn btn-inverse dropdown-toggle" type="button"
+		<button class="btn btn-inverse dropdown-toggle" type="button" 
 			data-toggle="dropdown">
 			Editorer <span class="caret"></span>
 		</button>
 		<ul class="dropdown-menu dropdown-menu-inverse" role="menu">
-			<li><a href="#">Java</a></li>
+			<li><a href="javaEditor.php">Java</a></li>
 			<li><a href="#">PHP & HTML</a></li>
 			<li><a href="#">MySQL</a></li>
 			<li><a href="#">C/C#/C++</a></li>
@@ -20,7 +20,7 @@ include 'header.php';
 	</div>
 
 	<div class="btn-group">
-		<button class="btn btn-inverse dropdown-toggle" type="button"
+		<button class="btn btn-inverse dropdown-toggle" type="button" 
 			data-toggle="dropdown">
 			Resurser <span class="caret"></span>
 		</button>
@@ -33,10 +33,10 @@ include 'header.php';
 		</ul>
 	</div>
 
-	<button class="btn btn-hg btn-primary" id="meldingerKnapp">Meldinger</button>
+	<button class="btn btn-hg btn-primary" id="meldingerKnapp" style="background-color: #34495e;">Meldinger</button>
 
 	<div class="btn-group">
-		<button class="btn btn-inverse dropdown-toggle" type="button"
+		<button class="btn btn-inverse dropdown-toggle" type="button" 
 			data-toggle="dropdown">
 			Servere <span class="caret"></span>
 		</button>
@@ -48,7 +48,7 @@ include 'header.php';
 	</div>
 
 	<div class="btn-group">
-		<button class="btn btn-inverse dropdown-toggle" type="button"
+		<button class="btn btn-inverse dropdown-toggle" type="button" 
 			data-toggle="dropdown">
 			System <span class="caret"></span>
 		</button>
