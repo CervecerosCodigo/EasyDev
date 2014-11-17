@@ -41,7 +41,7 @@ include 'header.php';
 			Servere <span class="caret"></span>
 		</button>
 		<ul class="dropdown-menu dropdown-menu-inverse" role="menu">
-			<li><a onclick="document.getElementById('apache1Bilde').style.visibility='visible';">Apache</a></li>
+			<li><a id="apacheLink">Apache</a></li>
 			<li><a href="#">MySQL</a></li>
 			<li><a href="#">SSH</a></li>
 		</ul>
@@ -62,8 +62,11 @@ include 'header.php';
 	</div>
 </div> <!-- end og menyBar -->
 
-	<img src="img/apache1.png" id="apache1Bilde">
-
+	<div class="popupBoksWrapper">
+		<span class="fui-cross"></span>
+		<img src="img/apache1.png" id="apache1Bilde">
+	</div>
+	
 </div>
 
 <!-- End of maincontent -->

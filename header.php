@@ -14,6 +14,14 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="./flatui/dist/js/flat-ui.js"></script>
 
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$("#apacheLink").click(function(){
+		  $(".popupBoksWrapper").toggle();
+	});
+});
+</script>
 
 <title>EasyDev - Et fullstendig utviklingsmiljø for utviklere!</title>
 </head>
@@ -30,7 +38,7 @@
 					<a href="index.php"><span class="fui-home"></span></a>
 					<p>EasyDev</p>
 				</div>
-				
+
 				<div class="btn-group" id="innloggetKnappeGruppe">
 					<button class="btn btn-inverse dropdown-toggle" type="button"
 						data-toggle="dropdown">
