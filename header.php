@@ -46,7 +46,7 @@ $(document).ready(function() {
 		  $("#apache4Bilde").hide();
 		  $("#brukergrupper1").hide();
 		  $("#brukergrupper2").hide();
-		  $("#brukergrupper2").hide();
+		  $("#brukergrupper3").hide();
 	});
 
 	$("#brukergrupperLink").click(function() {			// Viser eller fjerner div når link trykkes
