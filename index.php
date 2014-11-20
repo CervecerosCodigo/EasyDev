@@ -13,9 +13,9 @@ include 'header.php';
 		</button>
 		<ul class="dropdown-menu dropdown-menu-inverse" role="menu">
 			<li><a href="javaEditor.php">Java</a></li>
-			<li><a href="#">PHP & HTML</a></li>
-			<li><a href="#">MySQL</a></li>
-			<li><a href="#">C/C#/C++</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">PHP & HTML</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">MySQL</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">C/C#/C++</a></li>
 		</ul>
 	</div>
 
@@ -25,11 +25,11 @@ include 'header.php';
 			Resurser <span class="caret"></span>
 		</button>
 		<ul class="dropdown-menu dropdown-menu-inverse" role="menu">
-			<li><a href="#">HTML Validering</a></li>
-			<li><a href="#">CSS Validering</a></li>
-			<li><a href="#">W3Schools</a></li>
-			<li><a href="#">Dropbox</a></li>
-			<li><a href="#">Terminal</a></li>
+			<li><a href="http://validator.w3.org">HTML Validering</a></li>
+			<li><a href="http://jigsaw.w3.org/css-validator/">CSS Validering</a></li>
+			<li><a href="http://www.w3schools.com">W3Schools</a></li>
+			<li><a href="https://www.dropbox.com">Dropbox</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">Terminal</a></li>
 		</ul>
 	</div>
 
@@ -42,8 +42,8 @@ include 'header.php';
 		</button>
 		<ul class="dropdown-menu dropdown-menu-inverse" role="menu">
 			<li><a id="apacheLink">Apache</a></li>
-			<li><a href="#">MySQL</a></li>
-			<li><a href="#">SSH</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">MySQL</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">SSH</a></li>
 		</ul>
 	</div>
 
@@ -53,23 +53,29 @@ include 'header.php';
 			System <span class="caret"></span>
 		</button>
 		<ul class="dropdown-menu dropdown-menu-inverse" role="menu">
-			<li><a href="#">Brannmur</a></li>
-			<li><a href="#">Brukergrupper</a></li>
-			<li><a href="#">Logg</a></li>
-			<li><a href="#">Fil-utforsker</a></li>
-			<li><a href="#">Belastning</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">Brannmur</a></li>
+			<li><a id="brukergrupperLink" href="#">Brukergrupper</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">Logg</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">Fil-utforsker</a></li>
+			<li><a href="#" style="color: grey; pointer-events: none;">Belastning</a></li>
 		</ul>
 	</div>
-</div> <!-- end og menyBar -->
+</div> <!-- end of menyBar -->
+
+<div id="teppe"></div>
 
 	<div class="popupBoksWrapper">
 		<span class="fui-cross"></span>
 		<img src="img/apache1.png" id="apache1Bilde">
+		<img src="img/apache2.png" id="apache2Bilde">
+		<img src="img/apache3.png" id="apache3Bilde">
+		<img src="img/apache4.png" id="apache4Bilde">
+		<img src="img/brukergrupper1.png" id="brukergrupper1">
+		<img src="img/brukergrupper2.png" id="brukergrupper2">
+		<img src="img/brukergrupper3.png" id="brukergrupper3">
 	</div>
 	
-</div>
-
-<!-- End of maincontent -->
+</div> <!-- End of maincontent -->
 
 
 
